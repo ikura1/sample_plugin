@@ -1,0 +1,14 @@
+[general]
+name=SamplePlugin
+qgisMinimumVersion=3.0
+description=QGIS Sample Plugin.
+version=0.1
+author=ikura1
+email=ikura.lab@gmail.com
+
+about=This plugin is a test plugin.
+
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
