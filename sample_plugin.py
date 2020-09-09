@@ -17,7 +17,7 @@ class SamplePlugin:
         icon_path = Path(__file__).parent / "icon.png"
         text = "SamplePlugin"
         parent = self.iface.mainWindow()
-        icon = QIcon(icon_path)
+        icon = QIcon(str(icon_path))
 
         self.action = QAction(icon, text, parent)
         self.action.triggered.connect(self.run)
